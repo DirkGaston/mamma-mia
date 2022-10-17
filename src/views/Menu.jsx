@@ -2,7 +2,7 @@ import Card from "../components/Card";
 import { useContext } from "react";
 import Context from "../context/Context";
 
-function Home() {
+function Menu() {
   const { pizzas } = useContext(Context);
   return (
     <div className="home flex flex-col justify-center crt">
@@ -17,4 +17,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Menu;

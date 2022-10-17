@@ -5,7 +5,7 @@ import "../assets/css/Layout.css";
 
 function PageLayout() {
   return (
-    <div className="PageLayout">
+    <div className="PageLayout crt">
       <HeaderLayout />
       <MainLayout />
       <FooterLayout />
