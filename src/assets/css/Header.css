@@ -1,0 +1,17 @@
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/img/Header.jpg");
+  background-size: cover;
+  height: 30vh;
+}
+
+.item-quant {
+  position: relative;
+  right: 17px;
+  padding: 0 3px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
