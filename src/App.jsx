@@ -19,8 +19,8 @@ const App = () => {
     } else {
       const pizza = { id: pizzaId, cant: 1 };
       setCarrito([...carrito, pizza]);
+      alert("Pizza añadida al carrito!");
     }
-    alert("Pizza añadida al carrito!");
   };
 
   const plus = (id) => {
@@ -55,7 +55,6 @@ const App = () => {
     });
   }, []);
 
-  
   return (
     <div className="App">
       <Context.Provider value={globalState}>

@@ -12,9 +12,9 @@ const Card = ({ pizza }) => {
   };
 
   return (
-    <div className="flex justify-center card-container-hover">
-      <div className="rounded-lg shadow-lg bg-gray-900 bg-opacity-70 max-w-sm home-card">
-        <img className="rounded-t-lg" src={pizza.img} alt={pizza.name} />
+    <div className="flex justify-center rounded-lg card-container-hover">
+      <div className="rounded-lg shadow-lg bg-gray-900 bg-opacity-70 max-w-sm home-card overflow-hidden">
+        <img className="rounded-t-lg mt-5 spin-pizza-detail" src={pizza.img} alt={pizza.name} />
         <div className="p-6">
           <h5 className="text-white text-2xl font-semibold font-alegreya mb-2 capitalize">
             {pizza.name}

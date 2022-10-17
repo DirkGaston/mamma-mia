@@ -31,59 +31,61 @@ function Carrito() {
   };
 
   return (
-    <div className="carrito p-10 flex justify-center">
-      <div className="detalles p-7 w-3/4 bg-gray-700 bg-opacity-30 card-container text-white">
-        <h5 className="text-2xl font-medium">Detalles del pedido:</h5>
-        <div className="p-5 list">
-          {cart.map((pizza, i) => (
-            <div key={i} className="pizza mx-10 my-5">
-              <div className="flex flex-col md:flex-row justify-between items-center">
-                <div className="flex flex-col md:flex-row items-center overflow-hidden">
-                  <img
-                    className="spin-pizza-detail"
-                    width="100"
-                    src={pizza.img}
-                    alt={pizza.name}
-                  />
-                  <h6 className="mb-0 capitalize p-5 text-xl font-medium">
-                    {pizza.name}
-                  </h6>
-                </div>
+    <div className="carrito-container flex justify-center items-center">
+      <div className="carrito p-10 flex justify-center">
+        <div className="detalles p-7 w-3/4 bg-gray-700 bg-opacity-30 card-container rounded-lg text-white">
+          <h5 className="text-2xl font-medium">Detalles del pedido:</h5>
+          <div className="p-5 list">
+            {cart.map((pizza, i) => (
+              <div key={i} className="pizza mx-10 my-5">
                 <div className="flex flex-col md:flex-row justify-between items-center">
-                  <h6 className="mb-0 p-2 text-green-600 font-medium text-xl">
-                    $ {totalByPizza(pizza.cant, pizza.price)}
-                  </h6>
-                  <div>
-                    <button
-                      className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-md px-2 py-1  dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
-                      onClick={() => context.minus(pizza.id)}
-                    >
-                      -
-                    </button>
-                    <b className="mx-2">{pizza.cant}</b>
-                    <button
-                      className="focus:outline-none text-white bg-blue-500 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-md px-2 py-1 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
-                      onClick={() => context.plus(pizza.id)}
-                    >
-                      +
-                    </button>
+                  <div className="flex flex-col md:flex-row items-center overflow-hidden">
+                    <img
+                      className="spin-pizza-detail"
+                      width="100"
+                      src={pizza.img}
+                      alt={pizza.name}
+                    />
+                    <h6 className="mb-0 capitalize p-5 text-xl font-medium">
+                      {pizza.name}
+                    </h6>
+                  </div>
+                  <div className="flex flex-col md:flex-row justify-between items-center">
+                    <h6 className="mb-0 p-2 text-green-600 font-medium text-xl">
+                      $ {totalByPizza(pizza.cant, pizza.price)}
+                    </h6>
+                    <div>
+                      <button
+                        className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-md px-2 py-1  dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+                        onClick={() => context.minus(pizza.id)}
+                      >
+                        -
+                      </button>
+                      <b className="mx-2">{pizza.cant}</b>
+                      <button
+                        className="focus:outline-none text-white bg-blue-500 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-md px-2 py-1 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+                        onClick={() => context.plus(pizza.id)}
+                      >
+                        +
+                      </button>
+                    </div>
                   </div>
                 </div>
+                <hr className="mt-2" />
               </div>
-              <hr className="mt-2" />
-            </div>
-          ))}
+            ))}
+          </div>
+          <h2 className="text-3xl font-semibold">
+            Total: $ {FormatNumber(total)}
+          </h2>
+          <button
+            type="button"
+            className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-md px-3 py-2 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 mt-5"
+            onClick={() => teacherAlert()}
+          >
+            Ir a pagar
+          </button>
         </div>
-        <h2 className="text-3xl font-semibold">
-          Total: $ {FormatNumber(total)}
-        </h2>
-        <button
-          type="button"
-          className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-md px-3 py-2 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 mt-5"
-          onClick={() => teacherAlert()}
-        >
-          Ir a pagar
-        </button>
       </div>
     </div>
   );
