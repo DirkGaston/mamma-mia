@@ -54,6 +54,8 @@ const App = () => {
       setPizzas(res.data);
     });
   }, []);
+
+  
   return (
     <div className="App">
       <Context.Provider value={globalState}>

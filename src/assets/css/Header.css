@@ -1,7 +1,3 @@
-.header {
-  height: 25vh;
-}
-
 .item-quant {
   position: relative;
   right: 17px;
@@ -13,9 +9,34 @@
   border-radius: 5px;
 }
 
+@media only screen and (min-width: 599px) {
+  .header {
+    width: 750px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .headerContainer {
+    width: 100%;
+    display: block
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .header {
+    width: 100%;
+    display: block
+  }
+}
+
 .power-switch {
   height: 100px;
   width: 100px;
+}
+
+.neon-blood {
+  height: 250px;
+  width: 250px;
 }
 
 .toggleButton {
@@ -24,15 +45,15 @@
   text-transform: uppercase;
 }
 
-.glitch span {
+.nav-glitch span {
   position: relative;
 }
 
-.glitch span:hover {
+.nav-glitch span:hover {
   animation: skew 0.7s;
 }
 
-.glitch span::after {
+.nav-glitch span::after {
   content: "";
   display: block;
   width: 100%;
@@ -46,7 +67,7 @@
   color: #efefef;
 }
 
-.glitch span::before {
+.nav-glitch span::before {
   content: "";
   display: block;
   width: 100%;
@@ -59,11 +80,11 @@
   border-radius: 1.3rem;
 }
 
-.glitch span:hover::after {
+.nav-glitch span:hover::after {
   animation: purple 0.7s 2;
 }
 
-.glitch span:hover::before {
+.nav-glitch span:hover::before {
   animation: red 0.7s 2;
 }
 

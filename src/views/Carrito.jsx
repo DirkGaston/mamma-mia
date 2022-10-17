@@ -32,14 +32,19 @@ function Carrito() {
 
   return (
     <div className="carrito p-10 flex justify-center">
-      <div className="detalles p-7 w-3/4 bg-gray-100">
+      <div className="detalles p-7 w-3/4 bg-gray-700 bg-opacity-30 card-container text-white">
         <h5 className="text-2xl font-medium">Detalles del pedido:</h5>
         <div className="p-5 list">
           {cart.map((pizza, i) => (
             <div key={i} className="pizza mx-10 my-5">
               <div className="flex flex-col md:flex-row justify-between items-center">
-                <div className="flex flex-col md:flex-row items-center">
-                  <img width="100" src={pizza.img} alt={pizza.name} />
+                <div className="flex flex-col md:flex-row items-center overflow-hidden">
+                  <img
+                    className="spin-pizza-detail"
+                    width="100"
+                    src={pizza.img}
+                    alt={pizza.name}
+                  />
                   <h6 className="mb-0 capitalize p-5 text-xl font-medium">
                     {pizza.name}
                   </h6>

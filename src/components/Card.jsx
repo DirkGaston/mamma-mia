@@ -12,18 +12,18 @@ const Card = ({ pizza }) => {
   };
 
   return (
-    <div className="flex justify-center">
-      <div className="rounded-lg shadow-lg bg-white max-w-sm home-card">
+    <div className="flex justify-center card-container-hover">
+      <div className="rounded-lg shadow-lg bg-gray-900 bg-opacity-70 max-w-sm home-card">
         <img className="rounded-t-lg" src={pizza.img} alt={pizza.name} />
         <div className="p-6">
-          <h5 className="text-gray-900 text-2xl font-medium mb-2 capitalize">
+          <h5 className="text-white text-2xl font-semibold font-alegreya mb-2 capitalize">
             {pizza.name}
           </h5>
-          <hr className="my-5 w-5/6 h-px bg-gray-300 border-0 dark:bg-gray-700" />
-          <p className="mb-3 text-black font-bold dark:text-gray-400">
+          <hr className="my-5 w-5/6 h-px bg-red-500 border-0 dark:bg-gray-700" />
+          <p className="mb-3 text-white font-bold dark:text-gray-400">
             Ingredientes:
           </p>
-          <div className="flex flex-col w-1/2 items-center">
+          <div className="flex flex-col w-1/2 items-center text-white">
             <ul>
               {pizza.ingredients.map((ingredient, i) => (
                 <li key={i} className="capitalize flex">

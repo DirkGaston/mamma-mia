@@ -6,31 +6,26 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="header flex justify-between crt scanlines">
-      <div className="flex">
+    <div className="headerContainer flex justify-between crt scanlines">
+      <div className="flex header">
         <NavLink to={"/"}>
           <video
             src={logo2}
-            width="400"
-            heigth="400"
+            width="100%"
+            heigth="auto"
             autoPlay
             loop
             playsInline
             muted
-            poster
           ></video>
         </NavLink>
 
-        <img src={neonBlood} alt="neon-blood-gif" />
+        <img
+          src={neonBlood}
+          className="neon-blood hidden md:block"
+          alt="neon-blood-gif"
+        />
       </div>
-
-      {/* <h1 className="text-5xl text-white font-semibold">
-        ¡Pizzería Mamma Mia!
-      </h1>
-      <h6 className="text-xl text-white font-semibold mt-5">
-        ¡Tenemos las mejores pizzas que podrás encontrar!
-      </h6> */}
-      {/* <hr className="my-8 w-1/2 h-px bg-gray-500 border-0 dark:bg-gray-700" /> */}
     </div>
   );
 }

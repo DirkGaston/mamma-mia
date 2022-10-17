@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         shlop: ["Shlop", "sans-serif"],
+        alegreya: ["Alegreya", "sans-serif"],
+        alegreyablack: ["AlegreyaBlack", "sans-serif"],
       },
     },
   },

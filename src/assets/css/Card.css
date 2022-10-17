@@ -2,6 +2,19 @@
   width: 70vw;
 }
 
+.card-container {
+  box-shadow: 7px 7px 35px 20px red;
+}
+
+.card-container-hover {
+  box-shadow: 7px 7px 35px 20px red;
+  transition: transform 0.3s;
+}
+
+.card-container-hover:hover {
+  transform: scale(1.1);
+}
+
 .home-card a {
   cursor: pointer;
 }

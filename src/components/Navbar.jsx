@@ -22,7 +22,7 @@ export default function Navbar() {
   const total = cartItemCount();
 
   return (
-    <nav className="flex min-w-full top-0 flex-wrap items-center justify-between px-2 py-3 bg-black z-10 crt">
+    <nav className="flex min-w-full top-0 flex-wrap items-center justify-between px-2 py-3 bg-black z-10">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between items-center lg:w-auto">
           {/* <div className="flex items-center">
@@ -61,31 +61,29 @@ export default function Navbar() {
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="nav-item flex">
               <NavLink
-                to={"/about"}
+                to={"/nosotros"}
                 className={({ isActive }) =>
                   isActive
-                    ? "px-3 py-2 flex items-center text-3xl text-red-700 tracking-widest font-bold leading-snug rounded-lg font-shlop glitch crt-colorsep"
-                    : "px-3 py-2 flex items-center text-3xl text-white mr-7 tracking-widest font-bold leading-snug font-shlop glitch crt-colorsep"
+                    ? "px-3 py-2 flex items-center text-3xl text-red-700 tracking-widest font-bold leading-snug rounded-lg font-shlop nav-glitch crt-colorsep"
+                    : "px-3 py-2 flex items-center text-3xl text-white mr-7 tracking-widest font-bold leading-snug font-shlop nav-glitch crt-colorsep"
                 }
                 end
               >
                 <span>SOBRE NOSOTROS</span>
               </NavLink>
-              {total > 0 && <span className="mt-1 item-quant">{total}</span>}
             </li>
             <li className="nav-item flex">
               <NavLink
                 to={"/menu"}
                 className={({ isActive }) =>
                   isActive
-                    ? "px-3 py-2 flex items-center text-3xl text-red tracking-widest font-bold leading-snug rounded-lg font-shlop glitch crt-colorsep"
-                    : "px-3 py-2 flex items-center text-3xl text-white mr-7 tracking-widest font-bold leading-snug font-shlop glitch crt-colorsep"
+                    ? "px-3 py-2 flex items-center text-3xl text-red-700 tracking-widest font-bold leading-snug rounded-lg font-shlop nav-glitch crt-colorsep"
+                    : "px-3 py-2 flex items-center text-3xl text-white mr-7 tracking-widest font-bold leading-snug font-shlop nav-glitch crt-colorsep"
                 }
                 end
               >
                 <span>MENÚ</span>
               </NavLink>
-              {total > 0 && <span className="mt-1 item-quant">{total}</span>}
             </li>
             <li className="nav-item flex">
               <NavLink

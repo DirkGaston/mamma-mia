@@ -8,7 +8,7 @@ function PageLayout() {
     <div className="PageLayout crt">
       <HeaderLayout />
       <MainLayout />
-      <FooterLayout />
+      {/* <FooterLayout /> */}
     </div>
   );
 }

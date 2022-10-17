@@ -1,50 +1,92 @@
 [
   {
-    "desc": "La pizza napolitana, de masa tierna y delgada pero bordes altos, es la versión propia de la cocina napolitana de la pizza redonda. El término pizza napoletana, por su importancia histórica o regional, se emplea en algunas zonas como sinónimo de pizza tonda.",
+    "desc": "La pizza pesto-lencia es nuestra pizza por excelencia, de masa tierna y delgada pero bordes altos, es la versión propia de la cocina napolitana de la pizza redonda. El término pizza napoletana, por su importancia histórica o regional, se emplea en algunas zonas como sinónimo de pizza tonda.",
     "id": "P001",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
-    "ingredients": ["mozzarella", "tomates", "jamón", "orégano"],
-    "name": "napolitana",
+    "img": "https://i.ibb.co/p1yXG0w/Untitled-1.png",
+    "ingredients": [
+      "mozzarella buffalo",
+      "tomates cherry",
+      "pesto",
+      "albahaca fresca",
+      "ragu de vino tinto"
+    ],
+    "name": "pesto-lencia",
     "price": 5950
   },
+
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "Elaborada con una típica masa italiana cocinada al horno de piedra. Esto nos como resultado, una masa de mucho cuerpo y crujiente que va acompañada de queso mozzarella y nuestra salsa de tomate original con reducción de sangre. Disfrutáis de está delicia",
     "id": "P002",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fcheese-164872_640_com.jpg?alt=media&token=18b2b821-4d0d-43f2-a1c6-8c57bc388fab",
-    "ingredients": ["mozzarella", "tomates", "jamón", "choricillo"],
-    "name": "española",
+    "img": "https://i.ibb.co/jggqwWC/Untitled-2.png",
+    "ingredients": [
+      "mozzarella",
+      "extra queso",
+      "salsa tomate original",
+      "oregano"
+    ],
+    "name": "Pizzagrama",
     "price": 7250
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "La Pizza de Fantasmarella tiene una masa de elaboración artesanal y doblemente fermentada. La Salsa de Tomate Pomodoro Italiana cubre la masa y se mezcla perfectamente con el Queso Mozzarella y un sabroso Salame Italiano fresco, Champiñones y Aceitunas negras. Todo se hornea a 450º en nuestro horno artesanal a leña, transformándose en un verdadero placer culinario.",
     "id": "P003",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_com.jpg?alt=media&token=e7cde87a-08d5-4040-ac54-90f6c31eb3e3",
-    "ingredients": ["mozzarella", "tomates", "salame", "orégano"],
-    "name": "salame",
+    "img": "https://i.ibb.co/9ndBrCW/Untitled-3.png",
+    "ingredients": [
+      "mozzarella buffalo",
+      "tomates secos",
+      "salame",
+      "champiñones",
+      "aceitunas negras"
+    ],
+    "name": "fantasmarella",
     "price": 5990
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "La pizza Skellington es una de las pizzas más conocidas de la gastronomía infernal. Su nombre se lo dan Jack Skellington de PESADILLA ANTES DE NAVIDAD y está retratado en los cuatro ingredientes principales de esta pizza: las aceitunas negras, las alcachofas, la albahaca fresca y una salsa picante no apta para estómagos mortales. ¿Te atreves?",
     "id": "P004",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
-    "ingredients": ["mozzarella", "salame", "aceitunas", "champiñones"],
-    "name": "cuatro estaciones",
+    "img": "https://i.ibb.co/kJpWGrQ/Untitled-4.png",
+    "ingredients": [
+      "mozzarella",
+      "alcachofas",
+      "aceitunas",
+      "albahaca",
+      "salsa inferno"
+    ],
+    "name": "pizza skellington",
     "price": 9590
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "La pizza de pepperoni más brutal que jamás comerás. El espíritu de la Noche de Todos los Santos concentrado en esta masa circular de perfección culinaria. Porque para nosotros, Halloween es TODOS LOS DÍAS.",
     "id": "P005",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-salame.jpg?alt=media&token=ab3d4bf8-01f2-4810-982b-bd7fb6b517b2",
-    "ingredients": ["mozzarella", "tomates cherry", "bacon", "orégano"],
-    "name": "bacon",
+    "img": "https://i.ibb.co/2Kv1NrP/Untitled-5.png",
+    "ingredients": [
+      "salsa pomodoro",
+      "mozzarella",
+      "pepperoni negroni",
+      "aceitunas negras"
+    ],
+    "name": "halloweenie",
     "price": 6450
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "La pizza de araña picante es un clásico de las profundidades del Aqueronte y es un honor poder servirla a nuestros comensales. Es un delicioso bocado con una salsa ultra-picante y un toque de cianuro para matar el ardor. Una bomba",
     "id": "P006",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
-    "ingredients": ["mozzarella", "pimientos", "pollo grillé", "orégano"],
-    "name": "pollo picante",
+    "img": "https://i.ibb.co/N9CLsPx/Untitled-6.png",
+    "ingredients": [
+      "mozzarella",
+      "loxosceles laeta",
+      "salsa inferno",
+      "cianuro"
+    ],
+    "name": "araña picante",
+    "price": 8500
+  },
+  {
+    "desc": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn",
+    "id": "P007",
+    "img": "https://i.ibb.co/230t4W2/Untitled-7.png",
+    "ingredients": ["¿?", "¿?", "¿?", "¿?"],
+    "name": "lovecraft",
     "price": 8500
   }
 ]
